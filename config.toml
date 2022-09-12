@@ -1,0 +1,48 @@
+baseURL = 'http://jkmholding.com/'
+languageCode = 'en-us'
+theme = 'graysx'
+title = 'JKM Holding'
+
+## Site Settings
+[params]
+logo = "assets/img/logo.webp"
+favicon = "assets/favicon-jkm.png"
+
+# Info
+address = "Rosenstigen 8, 144 62 Rönninge, Sweden"
+email = "kevin@jkmholding.com"
+phone = "+46 (0) 73 0606 590"
+
+# Socials
+
+twitter = "https://twitter.com/jkmholding"
+facebook = "https://facebook.com/jkmholding"
+github = "https://github.com/kevalane"
+
+# Other
+
+# Startbootstrap Contact Form Token https://startbootstrap.com/solution/contact-forms
+sbtoken = "TOKEN_HERE"
+
+## Menu Items
+[menu]
+  [[menu.main]]
+  name = "Why"
+  URL = "#why"
+  weight = 1
+
+  [[menu.main]]
+  name = "Companies"
+  URL = "#companies"
+  weight = 2
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "#signup"
+  weight = 3
+
+
+# Credits
+
+# This theme is forked from: https://github.com/startbootstrap/startbootstrap-grayscale
+# This theme is forked by: https://github.com/akatiggerx04
