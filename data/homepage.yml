@@ -4,29 +4,50 @@ main:
     title : "JKM Holding" # Title Text
     description : "We start & invest in the companies of tomorrow." # Title Desc
     button:
-      text: "Learn More" # Button Text
+      text: "Our Why" # Button Text
       url: "#why" # Button URL
 
 # About
 why:
   title: "Why?"
-  desc: "Max Ducim Qua Labo Pa Adre Nam Ased Di Ullam Ess Num Minim Quorecu Re Iur Ipsam Autemo Autem Max Iurer Ut Enim Praese Ips Fugia Ne Dig Assumen Cul Ipsum Velit Magna Inl Odio Enimodi Nonve Sunti Tem Incidu Velqui Lauda Assume Volupt Nih Es Autem Officia Culpa Impedit Harum Blandi Si Quis Dol Facilis Verodo Tot Quib Quoden"
+  desc: "We believe in entrepreneurs, the ones who think differently and walk down their own path in life.
+  In everything we do, we aim to make the process of starting your own company easier, enabling the ideas of today to become tomorrow's reality."
   button:
     enable: true
-    text: "Button"
-    url: "#"
-  image: "assets/img/ipad.png"
+    text: "Our companies"
+    url: "#companies"
+  image: "assets/img/road.png"
 
 companies:
+  title: "Our companies"
   card1:
-    title: "Graysx"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-    img: "assets/img/bg-masthead.jpg"
+    title: "JKM Solutions"
+    text: "Helping small business owners and new entrepreneurs with incorporating a business, bookkeeping, annual reporting and building websites tailored to their need."
+    img: "assets/img/webdev.png"
+    button:
+      enable: true
+      text: "Visit website"
+      url: "https://jkm.solutions"
   card2:
-    title: "Graysx"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-    img: "assets/img/demo-image-01.jpg"
+    title: "Wannado"
+    url: "https://wannado.events"
+    text: "A map filled with events allowing you to find something you want to do. You can also create your own events and stay up to date with your friends' plans."
+    img: "assets/img/wannado.png"
+    button:
+      enable: true
+      text: "wannado.events"
+      url: "https://wannado.events"
   card3:
-    title: "Graysx"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-    img: "assets/img/demo-image-02.jpg"
+    title: "JKM Blockchain"
+    text: "A newly founded venture focused on everything revolving around blockchain technology. The primary areas of the business is: (1) validation of blockchains (both PoS and PoW), 
+    (2) earning yield through DeFi, and (3) long-term holding of crypto (mainly ETH and BTC)."
+    img: "assets/img/blockchain.png"
+  card4:
+    title: "Klassanda"
+    url: "https://klassanda.net"
+    text: "A commerce business focused on hepling high school students in Sweden earn money to pay for their graudation ceremony."
+    img: "assets/img/Klassanda..png"
+    button:
+      enable: true
+      text: "learn more"
+      url: "https://klassanda.net"
